@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="styles/main.css">
+    <title> Bolk || Home Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="main-nav">
+        <a href="index.html" class="logo">BOLK.</a>
+
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="service.html">Supplements</a></li>
+          <li><a href="work.html">Shop</a></li>
+        </ul>
+      </div>
+
+
+
+      <div class="sub-nav">
+        <ul>
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-instagram-square"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="hero">
+        <div class="content">
+          <h1 class="heading-primary">
+            We are here to help you build your dream body
+          </h1>
+          <p>
+            Welcome to our supplements website, where we offer a wide range of high-quality nutritional supplements to support your health and wellness goals. Our goal is to provide you with the best possible products and information to help you achieve your health and fitness aspirations. Whether you are looking for vitamins, minerals, herbal supplements, or sports nutrition, we have everything you need to feel your best. We are committed to providing you with excellent customer service and ensuring that you have a positive shopping experience with us. So, take a look around, and find the perfect supplement to help you on your journey to a healthier, happier life.
+
+          </p>
+
+          <a href="contact.html" class="btn">contact now</a>
+        </div>
+
+        <div class="hero-img">
+          <img src="images/1000x1400-supplements-hero.webp" alt="Hero Image">
+        </div>
+        
+      </div>
+    </div>
+    <footer>
+      <p>&copy; <span id="copyright"></span> Stan Co</p>
+    </footer> 
+    <script>
+      window.onload = function() {
+        var currentYear = new Date().getFullYear();
+        document.getElementById("copyright").innerHTML =
+           currentYear ;
+      };
+    </script>
+
+  </body>
+</html>

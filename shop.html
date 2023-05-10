@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles/main.css">
+
+    
+    <title>BOLK || Shop Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="main-nav">
+        <a href="index.html" class="logo">bOLK.</a>
+
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="service.html">Supplements</a></li>
+          <li><a href="work.html">Shop</a></li>
+        </ul>
+      </div>
+
+      <div class="sub-nav">
+        <ul>
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-instagram-square"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="description">
+        <h2 class="heading-secondary">
+          Finest Items For Sale
+        </h2>
+        <p>Our team is dedicated to sourcing products that are made with the highest quality materials, crafted with superior workmanship, and designed to meet the needs of our discerning customers. We are committed to providing exceptional customer service and support, and we pride ourselves on our ability to offer an exceptional shopping experience to each and every one of our valued customers. Whether you're looking for a special gift for someone you love or a little something to treat yourself, we invite you to explore our collection and discover the finest items available for sale today.
+
+
+
+
+          .</p>
+      </div>
+
+     <!---- featured products ---------> 
+    <div class="small-container">
+        <h2>Featured Products </h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="Images/images.jpg" alt="Hero Image">
+                <h4> Mega Mass Maker</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o" ></i>
+
+                </div>
+                <p> $40.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Images/download-2.jpg" alt="Hero Image">
+                <h4> Beast Mode Boost</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o" ></i>
+
+                </div>
+                <p> $30.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Images/download-1.jpg" alt="Hero Image">
+                <h4> Power Surge
+                </h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o" ></i>
+
+                </div>
+                <p> $25.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Images/download.jpg" alt="Hero Image">
+                <h4> Creatine Crush</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+
+                    <i class="fa fa-star-half-o" ></i>
+
+                </div>
+                <p> $30.00</p>
+            </div>
+            
+        </div>
+
+    </div>
+    <footer>
+      <p>&copy; <span id="copyright"></span> Stan Co</p>
+    </footer> 
+    <script>
+      window.onload = function() {
+        var currentYear = new Date().getFullYear();
+        document.getElementById("copyright").innerHTML =
+           currentYear ;
+      };
+    </script>
+  
+  </body>
+</html>
